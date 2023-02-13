@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Login Page with Background Image Example</title>
+  <!-- <link rel="stylesheet" href="./style.css"> -->
+</head>
+<style type="text/css">
+	div {
+		margin: 1%;
+		padding: 1%;
+	}
+	label{
+
+		margin: 1%;
+	}
+	
+</style>
+<body>
+<!-- partial:index.partial.html -->
+
+<form style="border: 3px solid black;" method="POST">
+		<center><h1><u>Sign Up</u></h1></center>
+	<div>
+		<label for="name">Name</label>
+    <input type="text" placeholder="Full Name" id="name" name="f_name" required/>
+  </div>
+  <div>
+  	<label for="name">Email</label>
+    <input type="email" placeholder="Email" id="name" name="f_name" required/>
+  </div>
+  
+  <div>
+  	<label>PassWord</label>
+    <input type="password" placeholder="Password" required/>                         
+  </div>
+
+  <div>
+  	<fieldset>
+  	<legend>Select Your Gender: </legend>
+  	<label>Male</label>
+  	<input type="radio" name="gender" id="gender" value="Male">
+  	&nbsp;
+  	<label>Female</label>
+  	<input type="radio" name="gender">
+  	&nbsp;
+  	<label>Other</label>
+  	<input type="radio" name="gender">
+  </fieldset>
+</div>
+<div>
+	<label>Date.of.Birth</label>
+	<input type="date" min=2000-01-02>
+</div>
+<div>
+	<label>Mobile Number</label>
+	<input type="tel" name="phone" placeholder="91+">
+</div>
+  	<div>
+  		<fieldset>
+  		<legend>Select Your Courses:</legend>
+  		<label for="python">Python</label>
+  		<input type="checkbox" name="courses" id="python" value="python" />
+  		&nbsp;&nbsp;
+  		<label for="java">Java</label>
+  		<input type="checkbox" name="courses" id="java" value="java" />
+  		&nbsp;&nbsp;
+  		<label for="sql">Sql</label>
+  		<input type="checkbox" name="courses" id="sql" value="sql" />
+  		&nbsp;&nbsp;
+  		<label for="angular">Django</label>
+  		<input type="checkbox" name="courses" id="angular" value="angular" />
+  		&nbsp;&nbsp;
+  	</fieldset>
+  	</div>
+  </div>
+  
+  <!-- <div class="form">
+    <input type="submit" placeholder="Submit">
+  </div> -->
+  <div>
+  	<button type="submit"><a href="index.html">Submit</button>
+  </div>
+</div>
+</div>
+
+</form>
+<!-- partial -->
+  
+</body>
+</html>
